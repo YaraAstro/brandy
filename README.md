@@ -6,20 +6,30 @@ A reusable directing skill for discovery, positioning, verbal identity, visual c
 
 ## Install and invoke
 
-Unzip and keep the `brand-identity-director` directory intact. Review the source reports and scripts before use. For Codex, copy that directory into your own skills location (normally `~/.codex/skills/`) and reload skills or restart the app if needed. This download is not installed automatically. Other agents can load `SKILL.md` and resolve its relative references; product-specific discovery and `agents/openai.yaml` support may differ. No universal cross-product compatibility is claimed.
+Install globally for your chosen supported agents with Node.js 22.20 or newer:
+
+```sh
+npx skills add YaraAstro/brandy --skill brand-identity-director --global
+```
+
+The installer lets you choose detected agents. Omit `--global` to install for the current project, or use `--agent <agent-name>` to target a particular supported agent. See the [supported agents and installation paths](https://github.com/vercel-labs/skills/blob/main/docs/agents.md). The repository must be accessible to the installer; a public listing requires a publicly accessible source. To use the local checkout before publishing, run `npx skills add . --skill brand-identity-director` from the repository root.
+
+`SKILL.md` uses the shared Agent Skills format. Support, activation, resource access, and optional tools vary by product; not every AI tool supports skills. For agents without a compatible installer, follow the product's instructions to copy the complete `brand-identity-director` directory into its skill location, or provide `SKILL.md` and its referenced resources manually. The optional `agents/openai.yaml` is Codex-specific metadata.
+
+Example request:
 
 ```text
-Use $brand-identity-director in discover mode.
+Use the brand-identity-director skill in discover mode.
 We sell refillable household cleaners in two languages. Use the attached
 customer research, existing identity, and packaging dimensions. Establish
 positioning and a brief before proposing visual directions.
 ```
 
-Choose `discover`, `explore`, `design`, `critique`, `refine`, `deliver`, or `full`. See [examples](examples/usage.md). Templates are intentionally unfinished forms to fill per project, not sample research. The example mark is only a tooling fixture, not a proposed client identity or cleared trademark.
+Choose `discover`, `explore`, `design`, `critique`, `refine`, `deliver`, or `full`. See [examples](brand-identity-director/examples/usage.md). Templates are intentionally unfinished forms to fill per project, not sample research. The example mark is only a tooling fixture, not a proposed client identity or cleared trademark.
 
 ## Optional tools
 
-Run these commands from the extracted skill directory. On Windows use `.venv\Scripts\python.exe` instead of `.venv/bin/python` (activation is optional).
+Run these commands from the `brand-identity-director` directory. On Windows use `.venv\Scripts\python.exe` instead of `.venv/bin/python` (activation is optional).
 
 ```sh
 python -m venv .venv
@@ -31,7 +41,7 @@ python -m venv .venv
 .venv/Scripts/python.exe -m pytest -q
 ```
 
-On macOS/Linux substitute `.venv/bin/python` throughout. `requirements-dev.txt` includes runtime requirements. `requirements.txt` alone is sufficient for validation/rendering. Exact tested dependency versions are pinned; supported Python wheels must exist for your OS/architecture. `resvg-py` is a native wheel; unsupported platforms may require a Rust build toolchain. No Cairo installation or browser is required. See [tool contract](references/tool-contract.md) for supported SVG features, limits, failure behavior, and renderer limitations.
+On macOS/Linux substitute `.venv/bin/python` throughout. `requirements-dev.txt` includes runtime requirements. `requirements.txt` alone is sufficient for validation/rendering. Exact tested dependency versions are pinned; supported Python wheels must exist for your OS/architecture. `resvg-py` is a native wheel; unsupported platforms may require a Rust build toolchain. No Cairo installation or browser is required. See [tool contract](brand-identity-director/references/tool-contract.md) for supported SVG features, limits, failure behavior, and renderer limitations.
 
 ## Package map
 
@@ -48,10 +58,10 @@ On macOS/Linux substitute `.venv/bin/python` throughout. `requirements-dev.txt` 
 
 ## Evidence and limits
 
-The initial reports are retained with byte hashes and section-level traceability in [evidence-and-sources.md](references/evidence-and-sources.md). Their assertions are not automatically evidence. Association-based design ideas remain hypotheses; standards apply only in their stated scope. No font-brand historical claims are needed to use this skill. No audience study, legal clearance, printer proof, or client acceptance is implied by passing tests.
+The initial reports are retained with byte hashes and section-level traceability in [evidence-and-sources.md](brand-identity-director/references/evidence-and-sources.md). Their assertions are not automatically evidence. Association-based design ideas remain hypotheses; standards apply only in their stated scope. No font-brand historical claims are needed to use this skill. No audience study, legal clearance, printer proof, or client acceptance is implied by passing tests.
 
 The helper profile intentionally excludes live text, CSS, embedded raster images, links, filters, animations, and reference-based composition. Keep richer editable masters outside this export profile. For external files, use maintained dependencies and a resource-limited process; this package is not a security sandbox or complete SVG standard validator.
 
 ## Reuse and provenance
 
-The reports were supplied by the user; preserve their provenance and do not assume a public redistribution license. Third-party standards are linked, not bundled. No font binaries, commercial mockups, or third-party logos are included. This package grants no rights in any future names or marks; check source permissions before redistributing the package or generated assets. See [rights and trademark](references/rights-and-trademark.md).
+The reports were supplied by the user; preserve their provenance and do not assume a public redistribution license. Third-party standards are linked, not bundled. No font binaries, commercial mockups, or third-party logos are included. This package grants no rights in any future names or marks; check source permissions before redistributing the package or generated assets. See [rights and trademark](brand-identity-director/references/rights-and-trademark.md).
