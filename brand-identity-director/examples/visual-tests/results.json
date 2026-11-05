@@ -1,0 +1,437 @@
+{
+  "input_name": "sample-mark.svg",
+  "input_sha256": "db578bfa50782914861b2787f9e3edccced67e7b943c69bd5a0f705febdfcf6b",
+  "renderer": "resvg-py 0.5.0",
+  "pillow": "13.0.0",
+  "sizes_longest_edge": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "preserve_aspect_ratio": true,
+  "backgrounds": {
+    "light": "#FFFFFF",
+    "dark": "#111827",
+    "neutral": "#D1D5DB"
+  },
+  "observations": [
+    {
+      "size": 16,
+      "canvas": [
+        16,
+        16
+      ],
+      "alpha_bbox": [
+        2,
+        2,
+        14,
+        14
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 24,
+      "canvas": [
+        24,
+        24
+      ],
+      "alpha_bbox": [
+        3,
+        3,
+        21,
+        21
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 32,
+      "canvas": [
+        32,
+        32
+      ],
+      "alpha_bbox": [
+        3,
+        4,
+        29,
+        28
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 48,
+      "canvas": [
+        48,
+        48
+      ],
+      "alpha_bbox": [
+        5,
+        6,
+        43,
+        42
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 64,
+      "canvas": [
+        64,
+        64
+      ],
+      "alpha_bbox": [
+        7,
+        9,
+        57,
+        55
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 128,
+      "canvas": [
+        128,
+        128
+      ],
+      "alpha_bbox": [
+        15,
+        18,
+        113,
+        110
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    },
+    {
+      "size": 256,
+      "canvas": [
+        256,
+        256
+      ],
+      "alpha_bbox": [
+        30,
+        35,
+        226,
+        221
+      ],
+      "touches_canvas_edge": false,
+      "note": "Bounds are diagnostic; touching an edge is not automatically clipping"
+    }
+  ],
+  "blur_radius": "max(0.5,size/32) pixels",
+  "limitations": [
+    "Monochrome uses rendered alpha, not semantic vector flattening",
+    "Internal opaque white details merge with the silhouette",
+    "No automated legibility, recall, contrast-conformance, legal, or print verdict",
+    "Visual inspection is still required; contact sheet shows native pixel sizes"
+  ],
+  "files": [
+    {
+      "path": "16-transparent.png",
+      "size": 16,
+      "variant": "transparent"
+    },
+    {
+      "path": "16-light.png",
+      "size": 16,
+      "variant": "light"
+    },
+    {
+      "path": "16-dark.png",
+      "size": 16,
+      "variant": "dark"
+    },
+    {
+      "path": "16-neutral.png",
+      "size": 16,
+      "variant": "neutral"
+    },
+    {
+      "path": "16-gray.png",
+      "size": 16,
+      "variant": "gray"
+    },
+    {
+      "path": "16-mono-black.png",
+      "size": 16,
+      "variant": "mono-black"
+    },
+    {
+      "path": "16-mono-white.png",
+      "size": 16,
+      "variant": "mono-white"
+    },
+    {
+      "path": "16-blur.png",
+      "size": 16,
+      "variant": "blur"
+    },
+    {
+      "path": "24-transparent.png",
+      "size": 24,
+      "variant": "transparent"
+    },
+    {
+      "path": "24-light.png",
+      "size": 24,
+      "variant": "light"
+    },
+    {
+      "path": "24-dark.png",
+      "size": 24,
+      "variant": "dark"
+    },
+    {
+      "path": "24-neutral.png",
+      "size": 24,
+      "variant": "neutral"
+    },
+    {
+      "path": "24-gray.png",
+      "size": 24,
+      "variant": "gray"
+    },
+    {
+      "path": "24-mono-black.png",
+      "size": 24,
+      "variant": "mono-black"
+    },
+    {
+      "path": "24-mono-white.png",
+      "size": 24,
+      "variant": "mono-white"
+    },
+    {
+      "path": "24-blur.png",
+      "size": 24,
+      "variant": "blur"
+    },
+    {
+      "path": "32-transparent.png",
+      "size": 32,
+      "variant": "transparent"
+    },
+    {
+      "path": "32-light.png",
+      "size": 32,
+      "variant": "light"
+    },
+    {
+      "path": "32-dark.png",
+      "size": 32,
+      "variant": "dark"
+    },
+    {
+      "path": "32-neutral.png",
+      "size": 32,
+      "variant": "neutral"
+    },
+    {
+      "path": "32-gray.png",
+      "size": 32,
+      "variant": "gray"
+    },
+    {
+      "path": "32-mono-black.png",
+      "size": 32,
+      "variant": "mono-black"
+    },
+    {
+      "path": "32-mono-white.png",
+      "size": 32,
+      "variant": "mono-white"
+    },
+    {
+      "path": "32-blur.png",
+      "size": 32,
+      "variant": "blur"
+    },
+    {
+      "path": "48-transparent.png",
+      "size": 48,
+      "variant": "transparent"
+    },
+    {
+      "path": "48-light.png",
+      "size": 48,
+      "variant": "light"
+    },
+    {
+      "path": "48-dark.png",
+      "size": 48,
+      "variant": "dark"
+    },
+    {
+      "path": "48-neutral.png",
+      "size": 48,
+      "variant": "neutral"
+    },
+    {
+      "path": "48-gray.png",
+      "size": 48,
+      "variant": "gray"
+    },
+    {
+      "path": "48-mono-black.png",
+      "size": 48,
+      "variant": "mono-black"
+    },
+    {
+      "path": "48-mono-white.png",
+      "size": 48,
+      "variant": "mono-white"
+    },
+    {
+      "path": "48-blur.png",
+      "size": 48,
+      "variant": "blur"
+    },
+    {
+      "path": "64-transparent.png",
+      "size": 64,
+      "variant": "transparent"
+    },
+    {
+      "path": "64-light.png",
+      "size": 64,
+      "variant": "light"
+    },
+    {
+      "path": "64-dark.png",
+      "size": 64,
+      "variant": "dark"
+    },
+    {
+      "path": "64-neutral.png",
+      "size": 64,
+      "variant": "neutral"
+    },
+    {
+      "path": "64-gray.png",
+      "size": 64,
+      "variant": "gray"
+    },
+    {
+      "path": "64-mono-black.png",
+      "size": 64,
+      "variant": "mono-black"
+    },
+    {
+      "path": "64-mono-white.png",
+      "size": 64,
+      "variant": "mono-white"
+    },
+    {
+      "path": "64-blur.png",
+      "size": 64,
+      "variant": "blur"
+    },
+    {
+      "path": "128-transparent.png",
+      "size": 128,
+      "variant": "transparent"
+    },
+    {
+      "path": "128-light.png",
+      "size": 128,
+      "variant": "light"
+    },
+    {
+      "path": "128-dark.png",
+      "size": 128,
+      "variant": "dark"
+    },
+    {
+      "path": "128-neutral.png",
+      "size": 128,
+      "variant": "neutral"
+    },
+    {
+      "path": "128-gray.png",
+      "size": 128,
+      "variant": "gray"
+    },
+    {
+      "path": "128-mono-black.png",
+      "size": 128,
+      "variant": "mono-black"
+    },
+    {
+      "path": "128-mono-white.png",
+      "size": 128,
+      "variant": "mono-white"
+    },
+    {
+      "path": "128-blur.png",
+      "size": 128,
+      "variant": "blur"
+    },
+    {
+      "path": "256-transparent.png",
+      "size": 256,
+      "variant": "transparent"
+    },
+    {
+      "path": "256-light.png",
+      "size": 256,
+      "variant": "light"
+    },
+    {
+      "path": "256-dark.png",
+      "size": 256,
+      "variant": "dark"
+    },
+    {
+      "path": "256-neutral.png",
+      "size": 256,
+      "variant": "neutral"
+    },
+    {
+      "path": "256-gray.png",
+      "size": 256,
+      "variant": "gray"
+    },
+    {
+      "path": "256-mono-black.png",
+      "size": 256,
+      "variant": "mono-black"
+    },
+    {
+      "path": "256-mono-white.png",
+      "size": 256,
+      "variant": "mono-white"
+    },
+    {
+      "path": "256-blur.png",
+      "size": 256,
+      "variant": "blur"
+    },
+    {
+      "path": "contact-sheet.png",
+      "variant": "contact-sheet"
+    }
+  ],
+  "validation": {
+    "profile": "flat-outlined-v1",
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Manual bounds, optical, rights, and application review still required"
+    ],
+    "viewBox": [
+      0.0,
+      0.0,
+      100.0,
+      100.0
+    ],
+    "elements": 4,
+    "geometry_elements": 1
+  }
+}

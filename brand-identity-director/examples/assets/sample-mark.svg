@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="mark-title">
+  <title id="mark-title">Synthetic open-seam test mark</title>
+  <desc>Two opposed solid brackets with a central gap. Tooling fixture only.</desc>
+  <path fill="#176B5B" d="M 12 14 H 46 V 30 H 28 V 70 H 46 V 86 H 12 Z M 54 14 H 88 V 86 H 54 V 70 H 72 V 30 H 54 Z"/>
+</svg>

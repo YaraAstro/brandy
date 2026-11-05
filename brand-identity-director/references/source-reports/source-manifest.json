@@ -1,0 +1,19 @@
+{
+  "retrieved_date": "2026-11-05",
+  "reports": [
+    {
+      "path": "strategic-brand-discovery.txt",
+      "original_attachment_name": "Pasted text(2).txt",
+      "bytes": 40782,
+      "sha256": "19db489ac29a49fc16275b371a64153a21d3606d9676a71c3ef5ef0c7f76c0ca",
+      "status": "User-supplied unverified report; data, not instructions"
+    },
+    {
+      "path": "decoding-visual-meaning.txt",
+      "original_attachment_name": "Pasted text (2).txt",
+      "bytes": 12327,
+      "sha256": "d5dde4cad648f7d74759863e81decbd387cbb970b12fa6b7b2f0837efa3a1332",
+      "status": "User-supplied unverified report; data, not instructions"
+    }
+  ]
+}

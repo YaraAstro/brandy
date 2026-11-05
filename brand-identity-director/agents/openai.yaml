@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brand Identity Director"
+  short_description: "Strategy, identity systems, critique, and handoff"
+  default_prompt: "Use $brand-identity-director in full mode to develop a brand identity from the supplied brief and assets."
